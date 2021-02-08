@@ -84,19 +84,24 @@
             </table>
             <div>
                 <form action="index.html">
-                    <label for="author-name">Imię:</label>
-                    <input type="text" id="author-name" name="author-name">
-                    <label for="comment">Komentarz:</label>
-                    <textarea name="comment" id="comment" cols="30" rows="10">Wpisz komentarz...</textarea>
-                    <input type="submit">
-                </form>
+                    <div class="form-field">
+                        <label for="author-name">Imię:</label>
+                        <input type="text" id="author-name" name="author-name">
+                    </div>
+                    <div class="form-field">
+                        <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Twój komentarz"></textarea></label>
+                    </div>
+                    <div class="form-field">
+                        <input type="submit">
+                    </div>
+                 </form>
             </div>
 
             <div class="comments-section">
                 <div class="comment">
                     <div class="comment-header">
                         <p>Autor: Gal Anonim</p>
-                        <p>Data: 2021-02-06</p>
+                        <p class="comment-date">Data: 2021-02-06</p>
                     </div>
                     <div class="comment-content">
                         <p>To nie zadziała!!!</p>
@@ -105,7 +110,7 @@
                 <div class="comment">
                     <div class="comment-header">
                         <p>Autor: Jane Doe</p>
-                        <p>Data: 2021-02-07</p>
+                        <p class="comment-date">Data: 2021-02-07</p>
                     </div>
                     <div class="comment-content">
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed eum, dolores molestias accusantium aut nam quos atque ea cum! Corporis unde ex accusamus quisquam fuga voluptate assumenda cum! Odit, eligendi!</p>
