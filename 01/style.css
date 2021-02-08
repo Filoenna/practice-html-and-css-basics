@@ -321,3 +321,62 @@ footer {
     padding: 10px;
     font-size: 0.75rem;
 }
+
+
+@media all and (min-width: 780px) {
+    .article-image {
+        max-width: 50%;
+    }
+
+    form {
+        border: 1px solid #ddd;
+        margin: 20px 0;
+        padding: 20px;
+    }
+    
+    .form-field {
+        display: flex;
+        justify-content: flex-start;
+        margin: 10px auto;
+    }
+    
+    input[type="text"] {
+        width: 30%;
+    }
+    
+    label {
+        width: auto;
+        margin-right: 5px;
+    }
+    
+    .comment {
+        padding: 10px;
+        margin: 10px auto;
+        width: 50%;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        box-shadow: 1px 3px 8px #aaa;
+    }
+    
+    
+    .comment-date {
+        font-size: 0.7rem;
+        font-style: italic;
+    }
+    
+    .comment-header:after {
+        content: "";
+        margin: 5px auto;
+        display: block;
+        width: 80%;
+        height: 1px;
+        position: static;
+        background-color: black;
+    }
+}
+
+@media all and (min-width: 960px) {
+    .article-image {
+        max-width: 35%;
+    }
+}
